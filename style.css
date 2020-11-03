@@ -345,13 +345,11 @@ p{
 }
 @media screen and (max-width:375px){
     .box1 .left h1{
-        font-size: 20px;
+        font-size: 24px;
     }
     .box1 .right a{
         width: 25%;
     }
-}
-@media screen and (max-width:360px){
     .box3 h1{
         font-size: 1.8rem;
     }
