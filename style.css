@@ -345,7 +345,7 @@ p{
 }
 @media screen and (max-width:375px){
     .box1 .left h1{
-        font-size: 24px;
+        font-size: 22px;
     }
     .box1 .right a{
         width: 25%;
