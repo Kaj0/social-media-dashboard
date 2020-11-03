@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 100%;
+}
+a{
+    background-color: hsl(227, 47%, 96%);
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    width: 23%;
+}
+a:hover{
+    cursor: pointer;
+    background-color: hsl(230, 22%, 74%);
+}
+h3,h4{
+    color: hsl(228, 12%, 44%);
+}
+p{
+    font-size: 17px;
+}
+.box1{
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.box1 .left{
+    width: fit-content;
+}
+.box1 .right{
+    margin-top: 5px;
+    width: 22%;
+    display: flex;
+    justify-content: flex-end;
+}
+.box1 .right h3{
+    margin-top: 8px;
+    margin-right: 15px;
+}
+.box1 .right a{
+    width: 30%;
+    height: 70%;
+    background-color: #fff;
+}
+.box1 .right a:hover{
+    background-color: #fff;
+}
+.box1 .right a .toggle{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(230, 22%, 74%);
+    border-radius: 100px;
+    
+}
+.box1 .right a .toggle .innercircle{
+    width: 40%;
+    height: 80%;
+    border-radius: 100px;
+    background-color: hsl(0, 0%, 100%);
+    opacity: 1;
+    float: right;
+    margin: 4px 4px 0 0;
+}
+.box2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box2 a .inside1,.box2 a .inside2,.box2 a .inside3,.box2 a .inside4{
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+.box2 a .inside1{
+    border-top: 5px solid #178FF5;
+}
+.box2 a .inside2{
+    border-top: 5px solid #1DA1F2;
+}
+/* .box2 a .inside3{
+    border-top: 5px solid;
+    border-image-source: linear-gradient(to right,#FDC366,#EE877E,#DF4896);
+    border-image-slice: 1;
+    
+} */
+.box2 a .inside3 .thinline{
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(to right,#FDC366,#EE877E,#DF4896);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.box2 a .inside4 {
+    border-top: 5px solid #C4032B;
+
+}
+.box2 a .inside1 .handle .image,.box2 a .inside2 .handle .image,.box2 a .inside3 .handle .image,.box2 a .inside4 .handle .image{
+    height: 18px;
+    margin-right: 5px;
+}
+.box2 a .inside1 .handle .image img,.box2 a .inside2 .handle .image img,.box2 a .inside3 .handle .image img,.box2 a .inside4 .handle .image img{
+    height: 100%;
+}
+.box2 a .inside1 .handle,.box2 a .inside2 .handle,.box2 a .inside3 .handle,.box2 a .inside4 .handle{
+    width: fit-content;
+    font-size: 14px;
+    padding: 30px 0 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.box2 a .inside1 h1,.box2 a .inside2 h1,.box2 a .inside3 h1,.box2 a .inside4 h1{
+    font-size: 60px;
+    width: fit-content;
+    margin: auto;
+ 
+}
+.box2 a .inside1 p,.box2 a .inside2 p,.box2 a .inside3 p,.box2 a .inside4 p{
+    width: fit-content;
+    margin: auto;
+    letter-spacing: 2px;
+    color: hsl(228, 12%, 44%);
+}
+.status{
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+    font-size: 14px;
+}
+.status h4{
+    margin-top:3px;
+    margin-left: 5px;
+    color: rgb(36, 155, 99);
+}
+.inside4 .status h4{
+    color: rgb(206, 55, 55);
+}
+.box3{
+    padding: 50px 0;
+    width: 100%;
+}
+.box3 h1{
+    width: 90%;
+    margin: auto;
+    color: hsl(228, 12%, 44%);
+}
+.box4{
+    width: 100%;
+}
+.bigbox{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.vessel{
+    padding: 30px 0;
+}
+.box4 .bigbox a{
+    margin-bottom: 50px;
+}
+.house{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+.percent{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+.house .up .image{
+    height: 18px;
+}
+.house .up .image img{
+    height: 100%;
+}
+.house .down{
+    padding-top: 40px;
+}
+.percent h4{
+    margin-left: 5px;
+    margin-top: 3px;
+    color:rgb(36, 155, 99)
+}
+.percent .red{
+    color: rgb(206, 55, 55);
+}
+.up,.down{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:1024px){
+    .box1 .right{
+        width: 24%;
+    }
+    .box1 .right a{
+        width: 35%;
+        height: 70%;
+        background-color: #fff;
+    }
+    .box1 .right a .toggle .innercircle{
+        width: 40%;
+        height: 75%;
+        margin: 5px 5px 0 0;
+    }
+    .box2 a .inside1 h1,.box2 a .inside2 h1,.box2 a .inside3 h1,.box2 a .inside4 h1{
+        font-size: 54px;
+        width: fit-content;
+        margin: auto;
+    }
+    p{
+        font-size: 14px;
+    }
+    .down h1{
+        font-size: 1.6rem;
+    }
+    .down .percent{
+        padding-top: 3px;
+    }
+}
+@media screen and (max-width:864px){
+    a{
+        background-color: hsl(227, 47%, 96%);
+        text-decoration: none;
+        border-radius: 5px;
+        color: black;
+        margin-bottom: 30px;
+        width: 48%;
+    }
+    .box1{
+        width: 90%;
+        margin: auto;
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .greyline{
+        width: 100%;
+        height: 2px;
+        background-color: hsl(230, 22%, 74%);
+        opacity: 1;
+        margin: 30px 0 10px;
+
+    }
+    .box1 .left{
+        width: 100%;
+    }
+    .box1 .right{
+        margin-top: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box1 .right h3{
+        width: fit-content;
+        margin-top: 8px;
+    }
+    .box1 .right a{
+        width: 12%;
+        height: 40px;
+        background-color: #fff;
+    }
+    .box1 .right a:hover{
+        background-color: #fff;
+    }
+    .box1 .right a .toggle{
+        width: 100%;
+        height: 100%;
+        background-color: hsl(230, 22%, 74%);
+        border-radius: 100px;
+    }
+    .box1 .right a .toggle .innercircle{
+        width: 40%;
+        height: 80%;
+        border-radius: 100px;
+        background-color: hsl(0, 0%, 100%);
+        opacity: 1;
+        float: right;
+        margin: 4px 4px 0 0;
+    }
+    .box2 a .inside1 .handle .image,.box2 a .inside2 .handle .image,.box2 a .inside3 .handle .image,.box2 a .inside4 .handle .image{
+        height: 18px;
+        margin-right: 5px;
+    }
+    .box2 a .inside1 .handle .image img,.box2 a .inside2 .handle .image img,.box2 a .inside3 .handle .image img,.box2 a .inside4 .handle .image img{
+        height: 100%;
+    }
+    .box2 a .inside1 .handle,.box2 a .inside2 .handle,.box2 a .inside3 .handle,.box2 a .inside4 .handle{
+        width: fit-content;
+        font-size: 14px;
+        padding: 30px 0 10px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .box2 a .inside1 h1,.box2 a .inside2 h1,.box2 a .inside3 h1,.box2 a .inside4 h1{
+        font-size: 60px;
+        width: fit-content;
+        margin: auto;
+     
+    }
+    .box2 a .inside1 p,.box2 a .inside2 p,.box2 a .inside3 p,.box2 a .inside4 p{
+        font-size: 17px;
+    }
+    .down h1{
+        font-size: 2rem;
+    }
+    
+}
+@media screen and (max-width:650px){
+    a{
+        width: 100%;
+    }
+    .box1,.box2,.box3,.box4{
+        width: 80%;
+    }
+    .box3,.box4{
+        margin: auto;
+    }
+    .box1 .right a{
+        width: 15%;
+    }
+}
+@media screen and (max-width:450px){
+    .box1 .left h1{
+        font-size: 28px;
+    }
+    .box1 .right a{
+        width: 22%;
+    }
+}
+@media screen and (max-width:375px){
+    .box1 .left h1{
+        font-size: 24px;
+    }
+    .box1 .right a{
+        width: 25%;
+    }
+}
+@media screen and (max-width:360px){
+    .box3 h1{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:320px){
+    .box1 .left h1{
+        font-size: 20px;
+    }
+    .box1 .right a{
+        width: 30%;
+    }
+    .box3 h1{
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width:310px){
+    *{
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
